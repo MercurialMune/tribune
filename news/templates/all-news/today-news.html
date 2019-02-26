@@ -1,0 +1,31 @@
+{%extends 'all-news/base.html'%}
+
+{%block content%}
+{{block.super}}
+
+<div class="container w3-light-grey">
+    {%for news_item in news%}
+
+    <h2 class="text-center w3-green w3-text-black w3-padding"> {{ news_item.title }} </h2>
+
+    <p>
+        <small>Edited by: {{news_item.editor}} on {{news_item.pub_date}}</small>
+    </p>
+    <hr class="w3-border-green w3-text-green">
+    <div class="w3-row" style="height:100%">
+    <div class="w3-third">
+      <img src="{{news_item.article_image.url}}" class="w3img " alt="Image" style="width:75%">
+    </div>
+    <p class=" w3-twothird w3-row w3-border w3-border-green w3-padding">{{news_item.post}}</p>
+    {%if news_item.tags%}
+    <div class="w3-green w3-button">{{new_item.tags}}</div>
+    {%endif%}
+    <hr class="w3-border-green w3-text-green">
+    {%empty%}
+    </div>
+    <div>
+        <h2 class="text-center w3-text-red">There No News Items</h2>
+    </div>
+    {%endfor%}
+</div>
+{%endblock%}
