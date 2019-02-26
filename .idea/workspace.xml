@@ -72,7 +72,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="640" />
     <option name="y" value="27" />
     <option name="width" value="640" />
@@ -209,11 +209,11 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="640" y="27" width="640" height="773" extended-state="4" />
+    <frame x="0" y="27" width="1280" height="773" extended-state="6" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.31118315" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.15274464" />
       <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.5008104" side_tool="true" weight="0.690625" />
       <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.49918962" visible="true" weight="0.7802198" />
       <window_info anchor="bottom" id="Python Console" order="2" />
